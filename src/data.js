@@ -5,7 +5,7 @@ export const brands = [
     nameAr: 'ديور',
     keywords: 'ديور dior',
     line: 'جرأة هادئة ولمسة فرنسية.',
-    image: '/products/miss-dior.jpg',
+    image: `${import.meta.env.BASE_URL}products/miss-dior.jpg`,
   },
   {
     id: 'gucci',
@@ -13,7 +13,7 @@ export const brands = [
     nameAr: 'غوتشي',
     keywords: 'غوتشي قوتشي gucci',
     line: 'زهور دافئة وحضور واضح.',
-    image: '/products/bloom.jpg',
+    image: `${import.meta.env.BASE_URL}products/bloom.jpg`,
   },
   {
     id: 'armani',
@@ -21,7 +21,7 @@ export const brands = [
     nameAr: 'أرماني',
     keywords: 'أرماني ارماني armani',
     line: 'أناقة يومية بخطوط نظيفة.',
-    image: '/products/acqua.jpg',
+    image: `${import.meta.env.BASE_URL}products/acqua.jpg`,
   },
 ]
 
@@ -38,7 +38,7 @@ export const products = [
     name: 'Sauvage',
     nameAr: 'سوفاج',
     note: 'فلفل وبرغموت وخشب الأرز',
-    image: '/products/sauvage.jpg',
+    image: `${import.meta.env.BASE_URL}products/sauvage.jpg`,
     prices: { 20: 180, 30: 250, 40: 310 },
   },
   {
@@ -47,7 +47,7 @@ export const products = [
     name: 'Miss Dior',
     nameAr: 'مس ديور',
     note: 'ورد وفاوانيا ومسك ناعم',
-    image: '/products/miss-dior.jpg',
+    image: `${import.meta.env.BASE_URL}products/miss-dior.jpg`,
     prices: { 20: 190, 30: 265, 40: 330 },
   },
   {
@@ -56,7 +56,7 @@ export const products = [
     name: 'Bloom',
     nameAr: 'بلوم',
     note: 'ياسمين ومسك أبيض',
-    image: '/products/bloom.jpg',
+    image: `${import.meta.env.BASE_URL}products/bloom.jpg`,
     prices: { 20: 170, 30: 240, 40: 300 },
   },
   {
@@ -65,7 +65,7 @@ export const products = [
     name: 'Guilty',
     nameAr: 'جيلتي',
     note: 'ليلك وفلفل وردي',
-    image: '/products/guilty.jpg',
+    image: `${import.meta.env.BASE_URL}products/guilty.jpg`,
     prices: { 20: 165, 30: 230, 40: 290 },
   },
   {
@@ -74,7 +74,7 @@ export const products = [
     name: 'Acqua di Gio',
     nameAr: 'أكوا دي جيو',
     note: 'نسيم بحري وإكليل الجبل',
-    image: '/products/acqua.jpg',
+    image: `${import.meta.env.BASE_URL}products/acqua.jpg`,
     prices: { 20: 160, 30: 220, 40: 280 },
   },
   {
@@ -83,7 +83,7 @@ export const products = [
     name: 'Sì',
     nameAr: 'سي',
     note: 'كشمش أسود وفانيلا',
-    image: '/products/si.jpg',
+    image: `${import.meta.env.BASE_URL}products/si.jpg`,
     prices: { 20: 185, 30: 255, 40: 320 },
   },
 ]
